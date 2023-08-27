@@ -146,7 +146,7 @@ void _signInWithEmailAndPassword(String email,String Password) async{
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const Profile()));
+                            builder: (context) => const UserContact()));
                   },
                   child: const Text(
                     "LOGIN",
